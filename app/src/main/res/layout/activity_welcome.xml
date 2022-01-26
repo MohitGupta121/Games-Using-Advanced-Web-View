@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splashes">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="3.0dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/aa1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/View"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="280.0dip"
+                android:layout_height="280.0dip"
+                android:layout_margin="25.0dip"
+                android:background="@drawable/logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/banner_container1"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@id/start"
+                android:layout_width="264.0dip"
+                android:layout_height="94.0dip"
+                android:layout_gravity="center"
+                android:background="@drawable/start"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/banner_container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1.0">
+
+            <TextView
+                android:id="@+id/privacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="2.0dip"
+                android:paddingRight="2.0dip"
+                android:text="@string/privacypolicy"
+                android:textColor="#ff000000"
+                android:textSize="12dp" />
+
+            <ImageButton
+                android:id="@id/stop"
+                android:layout_width="22.0dip"
+                android:layout_height="22.0dip"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="1dp"
+                android:background="@drawable/exit" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/aa"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="70.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="#ff591715"
+                android:textSize="35.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
