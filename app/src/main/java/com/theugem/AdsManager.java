@@ -29,8 +29,8 @@ public class AdsManager {
     private static final String BANNER_FB_ID = "298345895679236_298346219012537";
     private static final String INTERSTITIAL_FACEBOOK_AD = "298345895679236_298346332345859";
 
-    private static final String BANNER_ADMOB_ID = "ca-app-pub-4143387699699889/1936583413";
-    private static final String INTERSTITIAL_ADMOB_AD = "ca-app-pub-4143387699699889/4371175067";
+    private static final String BANNER_ADMOB_ID = "ca-app-pub-4143387699699889/6871737944";
+    private static final String INTERSTITIAL_ADMOB_AD = "ca-app-pub-4143387699699889/2932492931";
 
     public static com.facebook.ads.AdView createFacebookBannarAd(Context context) {
         com.facebook.ads.AdView fbAdview = new com.facebook.ads.AdView(context, BANNER_FB_ID, com.facebook.ads.AdSize.BANNER_HEIGHT_50);

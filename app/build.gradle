@@ -7,7 +7,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.crowdrun.crowdclashrace.runandfight.joinclash.crowdjoin.joincrowd.crowdjoinclash.crowdwar.citycrowd.cityclash.crowdcitywar.crowdcityrun.clashrace"
+        applicationId "com.subwayrun.subwayomnomrun.om.nom.run.subway.nomrun.omnomrunner.runner.puzzle.racing.arcade.racinggame.surfrun.surf.omnomrunpro.omrun"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1

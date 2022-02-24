@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings = myWebView.getSettings();
 
         Intent intent = getIntent();
-        final String weblink = "https://games.cdn.famobi.com/html5games/c/crowd-run-3d/v040/?fg_domain=play.famobi.com&fg_aid=A1000-1&fg_uid=28ab613b-9f40-4ab7-8f09-aa19f32e3660&fg_pid=4638e320-4444-4514-81c4-d80a8c662371&fg_beat=542&original_ref=https%3A%2F%2Fhtml5games.com%2F";
+        final String weblink = "https://games.cdn.famobi.com/html5games/o/om-nom-run/v1140/?fg_domain=play.famobi.com&fg_aid=A1000-100&fg_uid=abe80572-560a-444d-baf7-2fa4a7b2c02f&fg_pid=5a106c0b-28b5-48e2-ab01-ce747dda340f&fg_beat=366&original_ref=https%3A%2F%2Fhtml5games.com%2F";
         myWebView.loadUrl(weblink);
         progressBar.setProgress(0);
 

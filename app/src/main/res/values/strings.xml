@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Crowd Run - City Crowd Clash</string>
+    <string name="app_name">Subway Om Nom Run : Runner</string>
     <string name="privacypolicy">
-    If you do not agree to our <a href="https://siyaramapk.blogspot.com/2022/01/crowd-run-city-crowd-clas-privacy-policy.html">Privacy Policy</a>,Tap
+    If you do not agree to our <a href="https://siyaramapk.blogspot.com/2022/02/subway-om-nom-run-runner-privacy-policy.html">Privacy Policy</a>,Tap
     </string>
     <string name="notification_error_ssl_cert_invalid">SSL Error! Give Permission.</string>
 </resources>

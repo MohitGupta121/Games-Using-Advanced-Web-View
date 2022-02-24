@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.view.View;
@@ -73,6 +74,15 @@ public class Welcome_screen extends AppCompatActivity {
         com.google.android.gms.ads.AdView mAdView2 = new AdView(this);
         adViewContainer2.addView(mAdView2);
         AdsManager.showBannerAd(mAdView2, this);
+
+        ImageView querkaBanner = findViewById(R.id.querkaBanner);
+        querkaBanner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("https://play89.qureka.com/")));
+            }
+        });
 
     }
 
