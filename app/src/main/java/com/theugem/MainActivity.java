@@ -2,7 +2,7 @@ package com.theugem;
   
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
+   
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.http.SslError;
