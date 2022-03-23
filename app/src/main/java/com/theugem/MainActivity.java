@@ -15,7 +15,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
-
+   
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdView;
 
