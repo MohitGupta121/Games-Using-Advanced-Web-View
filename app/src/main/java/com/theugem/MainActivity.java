@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private android.webkit.WebView myWebView;
 
     private ProgressBar progressBar;
-
+  
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
